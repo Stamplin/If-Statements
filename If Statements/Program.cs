@@ -60,8 +60,8 @@ Console.ReadLine();
 Console.WriteLine("Press enter to move to the next part");
 Console.Clear();
 
-//Mini Wuiz
-int quizScore, quizQ1;
+//Mini Quiz
+int quizScore, quizQ1, quizQ2;
 quizScore = 0;
 Console.WriteLine("Welcome to the mini quiz, where you'll be asked mini sized questions.");
 Console.WriteLine("");
@@ -82,7 +82,6 @@ else if (quizQ1 > 70 || quizQ1 < 60)
     Console.WriteLine("Yeah.. Nah you're not even close.");
 }
 //question 2 (writing)
-string quizQ2;
 Console.WriteLine();
 Console.WriteLine("Are you dead? \n There only one answer don't lie.");
 quizQ2 = Console.ReadLine().ToUpper();
@@ -96,6 +95,7 @@ else if (quizQ2 == "NO")
 }
 //question 3 mutiple choice
 Console.WriteLine();
-
+Console.WriteLine("Multiple choice now!");
+Console.WriteLine("");
 
 Console.ReadLine();
