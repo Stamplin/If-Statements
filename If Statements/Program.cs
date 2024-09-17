@@ -56,6 +56,9 @@ else if (numGuess != spesNum)
     Console.WriteLine("Wrong number! The number is " + spesNum);
 }
 
+Console.ReadLine();
+Console.WriteLine("Press enter to move to the next part");
+Console.Clear();
 
 //Mini Wuiz
 int quizScore, quizQ1;
